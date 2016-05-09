@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4090CA1CE146ED0001820F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4090C91CE146ED0001820F /* AppDelegate.swift */; };
+		CC4090CC1CE146ED0001820F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4090CB1CE146ED0001820F /* ViewController.swift */; };
+		CC4090CF1CE146ED0001820F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4090CD1CE146ED0001820F /* Main.storyboard */; };
+		CC4090D21CE146ED0001820F /* web_requests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC4090D01CE146ED0001820F /* web_requests.xcdatamodeld */; };
+		CC4090D41CE146ED0001820F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4090D31CE146ED0001820F /* Assets.xcassets */; };
+		CC4090D71CE146ED0001820F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4090D51CE146ED0001820F /* LaunchScreen.storyboard */; };
+		CC4090E21CE146ED0001820F /* web_requestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4090E11CE146ED0001820F /* web_requestsTests.swift */; };
+		CC4090ED1CE146ED0001820F /* web_requestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4090EC1CE146ED0001820F /* web_requestsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4090DE1CE146ED0001820F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4090BE1CE146ED0001820F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4090C51CE146ED0001820F;
+			remoteInfo = "web-requests";
+		};
+		CC4090E91CE146ED0001820F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4090BE1CE146ED0001820F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4090C51CE146ED0001820F;
+			remoteInfo = "web-requests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4090C61CE146ED0001820F /* web-requests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web-requests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4090C91CE146ED0001820F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4090CB1CE146ED0001820F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4090CE1CE146ED0001820F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4090D11CE146ED0001820F /* web_requests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = web_requests.xcdatamodel; sourceTree = "<group>"; };
+		CC4090D31CE146ED0001820F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4090D61CE146ED0001820F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4090D81CE146ED0001820F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4090DD1CE146ED0001820F /* web-requestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web-requestsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4090E11CE146ED0001820F /* web_requestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web_requestsTests.swift; sourceTree = "<group>"; };
+		CC4090E31CE146ED0001820F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4090E81CE146ED0001820F /* web-requestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web-requestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4090EC1CE146ED0001820F /* web_requestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web_requestsUITests.swift; sourceTree = "<group>"; };
+		CC4090EE1CE146ED0001820F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4090C31CE146ED0001820F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4090DA1CE146ED0001820F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4090E51CE146ED0001820F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4090BD1CE146ED0001820F = {
+			isa = PBXGroup;
+			children = (
+				CC4090C81CE146ED0001820F /* web-requests */,
+				CC4090E01CE146ED0001820F /* web-requestsTests */,
+				CC4090EB1CE146ED0001820F /* web-requestsUITests */,
+				CC4090C71CE146ED0001820F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4090C71CE146ED0001820F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4090C61CE146ED0001820F /* web-requests.app */,
+				CC4090DD1CE146ED0001820F /* web-requestsTests.xctest */,
+				CC4090E81CE146ED0001820F /* web-requestsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4090C81CE146ED0001820F /* web-requests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4090C91CE146ED0001820F /* AppDelegate.swift */,
+				CC4090CB1CE146ED0001820F /* ViewController.swift */,
+				CC4090CD1CE146ED0001820F /* Main.storyboard */,
+				CC4090D31CE146ED0001820F /* Assets.xcassets */,
+				CC4090D51CE146ED0001820F /* LaunchScreen.storyboard */,
+				CC4090D81CE146ED0001820F /* Info.plist */,
+				CC4090D01CE146ED0001820F /* web_requests.xcdatamodeld */,
+			);
+			path = "web-requests";
+			sourceTree = "<group>";
+		};
+		CC4090E01CE146ED0001820F /* web-requestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4090E11CE146ED0001820F /* web_requestsTests.swift */,
+				CC4090E31CE146ED0001820F /* Info.plist */,
+			);
+			path = "web-requestsTests";
+			sourceTree = "<group>";
+		};
+		CC4090EB1CE146ED0001820F /* web-requestsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4090EC1CE146ED0001820F /* web_requestsUITests.swift */,
+				CC4090EE1CE146ED0001820F /* Info.plist */,
+			);
+			path = "web-requestsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4090C51CE146ED0001820F /* web-requests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4090F11CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requests" */;
+			buildPhases = (
+				CC4090C21CE146ED0001820F /* Sources */,
+				CC4090C31CE146ED0001820F /* Frameworks */,
+				CC4090C41CE146ED0001820F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "web-requests";
+			productName = "web-requests";
+			productReference = CC4090C61CE146ED0001820F /* web-requests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4090DC1CE146ED0001820F /* web-requestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4090F41CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requestsTests" */;
+			buildPhases = (
+				CC4090D91CE146ED0001820F /* Sources */,
+				CC4090DA1CE146ED0001820F /* Frameworks */,
+				CC4090DB1CE146ED0001820F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4090DF1CE146ED0001820F /* PBXTargetDependency */,
+			);
+			name = "web-requestsTests";
+			productName = "web-requestsTests";
+			productReference = CC4090DD1CE146ED0001820F /* web-requestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC4090E71CE146ED0001820F /* web-requestsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4090F71CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requestsUITests" */;
+			buildPhases = (
+				CC4090E41CE146ED0001820F /* Sources */,
+				CC4090E51CE146ED0001820F /* Frameworks */,
+				CC4090E61CE146ED0001820F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4090EA1CE146ED0001820F /* PBXTargetDependency */,
+			);
+			name = "web-requestsUITests";
+			productName = "web-requestsUITests";
+			productReference = CC4090E81CE146ED0001820F /* web-requestsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4090BE1CE146ED0001820F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bartosz;
+				TargetAttributes = {
+					CC4090C51CE146ED0001820F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 75QTQ5WC99;
+					};
+					CC4090DC1CE146ED0001820F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 75QTQ5WC99;
+						TestTargetID = CC4090C51CE146ED0001820F;
+					};
+					CC4090E71CE146ED0001820F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 75QTQ5WC99;
+						TestTargetID = CC4090C51CE146ED0001820F;
+					};
+				};
+			};
+			buildConfigurationList = CC4090C11CE146ED0001820F /* Build configuration list for PBXProject "web-requests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4090BD1CE146ED0001820F;
+			productRefGroup = CC4090C71CE146ED0001820F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4090C51CE146ED0001820F /* web-requests */,
+				CC4090DC1CE146ED0001820F /* web-requestsTests */,
+				CC4090E71CE146ED0001820F /* web-requestsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4090C41CE146ED0001820F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4090D71CE146ED0001820F /* LaunchScreen.storyboard in Resources */,
+				CC4090D41CE146ED0001820F /* Assets.xcassets in Resources */,
+				CC4090CF1CE146ED0001820F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4090DB1CE146ED0001820F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4090E61CE146ED0001820F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4090C21CE146ED0001820F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4090CC1CE146ED0001820F /* ViewController.swift in Sources */,
+				CC4090D21CE146ED0001820F /* web_requests.xcdatamodeld in Sources */,
+				CC4090CA1CE146ED0001820F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4090D91CE146ED0001820F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4090E21CE146ED0001820F /* web_requestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4090E41CE146ED0001820F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4090ED1CE146ED0001820F /* web_requestsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4090DF1CE146ED0001820F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4090C51CE146ED0001820F /* web-requests */;
+			targetProxy = CC4090DE1CE146ED0001820F /* PBXContainerItemProxy */;
+		};
+		CC4090EA1CE146ED0001820F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4090C51CE146ED0001820F /* web-requests */;
+			targetProxy = CC4090E91CE146ED0001820F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4090CD1CE146ED0001820F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4090CE1CE146ED0001820F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4090D51CE146ED0001820F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4090D61CE146ED0001820F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4090EF1CE146ED0001820F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4090F01CE146ED0001820F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4090F21CE146ED0001820F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web-requests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartosz.web-requests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4090F31CE146ED0001820F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web-requests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartosz.web-requests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC4090F51CE146ED0001820F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "web-requestsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartosz.web-requestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web-requests.app/web-requests";
+			};
+			name = Debug;
+		};
+		CC4090F61CE146ED0001820F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "web-requestsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartosz.web-requestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web-requests.app/web-requests";
+			};
+			name = Release;
+		};
+		CC4090F81CE146ED0001820F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "web-requestsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartosz.web-requestsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "web-requests";
+			};
+			name = Debug;
+		};
+		CC4090F91CE146ED0001820F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "web-requestsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartosz.web-requestsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "web-requests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4090C11CE146ED0001820F /* Build configuration list for PBXProject "web-requests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4090EF1CE146ED0001820F /* Debug */,
+				CC4090F01CE146ED0001820F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4090F11CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4090F21CE146ED0001820F /* Debug */,
+				CC4090F31CE146ED0001820F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4090F41CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4090F51CE146ED0001820F /* Debug */,
+				CC4090F61CE146ED0001820F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4090F71CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requestsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4090F81CE146ED0001820F /* Debug */,
+				CC4090F91CE146ED0001820F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC4090D01CE146ED0001820F /* web_requests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC4090D11CE146ED0001820F /* web_requests.xcdatamodel */,
+			);
+			currentVersion = CC4090D11CE146ED0001820F /* web_requests.xcdatamodel */;
+			path = web_requests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC4090BE1CE146ED0001820F /* Project object */;
+}
