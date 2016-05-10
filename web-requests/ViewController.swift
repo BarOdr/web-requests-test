@@ -12,14 +12,42 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let urlString = "http://swapi.co/api/people/3"
+        let session = NSURLSession.sharedSession()
+        let url = NSURL(string: urlString)!
+        
+        session.dataTaskWithURL(url) { (data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
+            
+            if let responseData = data {
+                
+                do {
+                    let json = try NSJSONSerialization.JSONObjectWithData(responseData, options: NSJSONReadingOptions.AllowFragments)
+                    
+                    if let dict = json as? Dictionary<String, AnyObject> {
+                        
+                        if let name = dict["name"] as? String, let height = dict["height"] as? String, let birthYear = dict["birth_year"] as? String, let hairColor = dict["hair_color"] as? String, let films = dict["films"] as? [String] {
+                            
+                            let person = SWPerson(name: name, height: height, birthYear: birthYear, hairColor: hairColor)
+                            
+                            print(person.name)
+                            print(person.height)
+                            print(person.birthYear)
+                            print(person.hairColor)
+                            print(films)
+                        
+                        }
+                        
+                    }
+                    
+                    print(json)
+                } catch {
+                    print("Could not serialize")
+                }
+            }
+        } .resume()
+            
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+        
 }
 

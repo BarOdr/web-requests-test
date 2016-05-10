@@ -15,6 +15,7 @@
 		CC4090D71CE146ED0001820F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4090D51CE146ED0001820F /* LaunchScreen.storyboard */; };
 		CC4090E21CE146ED0001820F /* web_requestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4090E11CE146ED0001820F /* web_requestsTests.swift */; };
 		CC4090ED1CE146ED0001820F /* web_requestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4090EC1CE146ED0001820F /* web_requestsUITests.swift */; };
+		CCB556331CE2042300699E11 /* SWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB556321CE2042300699E11 /* SWPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC4090E81CE146ED0001820F /* web-requestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web-requestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4090EC1CE146ED0001820F /* web_requestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web_requestsUITests.swift; sourceTree = "<group>"; };
 		CC4090EE1CE146ED0001820F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB556321CE2042300699E11 /* SWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPerson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CC4090C81CE146ED0001820F /* web-requests */ = {
 			isa = PBXGroup;
 			children = (
+				CCB5562F1CE1FF5700699E11 /* Model */,
 				CC4090C91CE146ED0001820F /* AppDelegate.swift */,
 				CC4090CB1CE146ED0001820F /* ViewController.swift */,
 				CC4090CD1CE146ED0001820F /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				CC4090EE1CE146ED0001820F /* Info.plist */,
 			);
 			path = "web-requestsUITests";
+			sourceTree = "<group>";
+		};
+		CCB5562F1CE1FF5700699E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCB556321CE2042300699E11 /* SWPerson.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB556331CE2042300699E11 /* SWPerson.swift in Sources */,
 				CC4090CC1CE146ED0001820F /* ViewController.swift in Sources */,
 				CC4090D21CE146ED0001820F /* web_requests.xcdatamodeld in Sources */,
 				CC4090CA1CE146ED0001820F /* AppDelegate.swift in Sources */,
@@ -491,6 +503,7 @@
 				CC4090F31CE146ED0001820F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC4090F41CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requestsTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				CC4090F61CE146ED0001820F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC4090F71CE146ED0001820F /* Build configuration list for PBXNativeTarget "web-requestsUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +521,7 @@
 				CC4090F91CE146ED0001820F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
